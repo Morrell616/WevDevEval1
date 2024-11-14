@@ -164,21 +164,46 @@ hr {
 }
 
 @media (min-width: 800px) {
-	.header_pub-info {
-		flex-direction: row;
-		justify-content: space-between;
+	header {
+		display: flex;
 		align-items: center;
+		background-color: #64bcda; 
+		padding:1.6rem;
+		width:100%;
+		margin-bottom: 3.2rem;
+		margin-top: 3.2rem;
+	
+	
+	} 
+    .header_pub-info {
+		display:flex;
+		align-items:start;
 	}
 
-	.main-article {
+	.content-container{
+		display:flex;
+		justify-content: space-around;
+		margin: 0 0 1.6rem;
+		padding: 1rem;
+	
+
+	}
+
+	article {	
 		width: 60%;
-		border-radius: 0.6rem;
-		margin: 0;
+		border-radius:0.6 rem;
+		padding:1rem;
+		background-color: lightgrey;
+		margin: 1rem;
+		
 	}
 
-	.main-sidebar {
+	aside {
+		
 		width: 40%;
-		border-radius: 0.6rem;
-		margin: 0;
+		border-radius:0.6 rem;
+		background-color: #323232;
+		color: #f2f2f2;
+		margin:1rem;
 	}
 }
